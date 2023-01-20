@@ -1,0 +1,31 @@
+def isposible(x,y,a,b):
+
+   if(x*y == a+b):
+
+       return print("Yes")
+
+   else:
+
+       return print("No")
+
+val = int(input())
+
+arr = []
+
+for i in range(val):
+
+   v = list(map(int,input().split()))
+
+   arr.append(v)
+
+for i in range(len(arr)):
+
+   x = arr[i][0]
+
+   y = arr[i][1]
+
+   a = arr[i][2]
+
+   b = arr[i][3]
+
+   isposible(x,y,a,b)
